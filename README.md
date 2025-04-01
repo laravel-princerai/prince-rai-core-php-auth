@@ -46,7 +46,7 @@ This table stores the user's **ID**, **Name**, **Email** (unique), and **Passwor
 
 ### 3. Configuration File
 
-The JWT secret key is required for signing and verifying JWT tokens. To set this, create a **`config/config.php`** file in your project and configure your secret key (by default we're generating a new one during registeration , so i you wish to modify it you are good to go):
+The JWT secret key is required for signing and verifying JWT tokens. To set this, create a **`config/config.php`** file in your project and configure your secret key (by default we're generating a new one during registeration , so if you wish to modify it you are good to go):
 
 ```php
 <?php
